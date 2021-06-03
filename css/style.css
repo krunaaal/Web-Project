@@ -1,0 +1,116 @@
+
+body{
+    background-image: url('../background.jpg');
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+
+.logo{
+    display: block;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+}
+
+h1{
+    margin-top: 10px;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+#demo{
+    margin-top: 10px;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+}
+
+#container{
+    max-width: 550px;
+    background-color: rgba(0, 255, 255, 0.192);
+    margin: 15px auto;
+    height: 50vh;
+    border: 2px solid black;
+    border-radius: 10px;
+    overflow: auto;
+}
+
+.message{
+    color: white;
+    background-color: rgba(65, 61, 61, 0.726);
+    width: 40%;
+    padding: 5px 8px;
+    margin: 3px 5px;
+    border:1px solid rgba(255, 255, 255, 0.233);
+    border-radius: 8px;
+}
+
+.left{
+    float: left;
+    clear: both;
+}
+
+.right{
+    float: right;
+    clear: both;
+}
+
+#send-container{
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    max-width: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#messageInp{
+    width: 84%;
+    padding-left: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 30px;
+    font-size: 13px;
+    color: white;
+    background-color: rgba(78, 78, 78, 0.589);
+    outline: none;
+}
+
+#messageInp:hover{
+    width: 84%;
+    padding-left: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 30px;
+    font-size: 13px;
+    color: white;
+    background-color: rgba(38, 43, 42, 0.692);
+    outline: none;
+}
+
+::placeholder{
+    color: rgba(255, 255, 255, 0.575);
+}
+
+.btn{
+    margin-left: 5px;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 3px 15px;
+    height: 30px;
+    color: white;
+    background-color: rgba(38, 43, 42, 0.692);
+}
+
+.btn:hover{
+    margin-left: 5px;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 3px 15px;
+    height: 30px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.459);
+}
