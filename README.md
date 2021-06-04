@@ -4,6 +4,6 @@
 
 -> Tools :
 
-      - html, css & java script on frontend.
+      - html & css on frontend.
      
       - nodejs & socket.io on backend.
